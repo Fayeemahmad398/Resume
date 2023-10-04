@@ -1,0 +1,171 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+/* ------------------ */
+/* contact section  below */
+img {
+  height: 25px;
+  width: 25px;
+}
+.resume {
+  padding: 10px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+.contact-details {
+  display: flex;
+  gap: 20px;
+}
+.platform {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.mailimg {
+  width: 30px;
+  height: 30px;
+}
+a {
+  text-decoration: none;
+  color: rgb(77, 98, 107);
+}
+a:hover {
+  text-decoration: underline;
+}
+/* --------------------------------------- */
+/* education section below*/
+
+.education-section {
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  margin-bottom: 20px;
+  height: 3px;
+  background: #000;
+}
+
+.educations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.institute {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.duration {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.course {
+  color: #000;
+  font-weight: 100;
+}
+/* ----------------------------------- */
+/* projects section below  */
+
+.projects-sections {
+  width: 100%;
+  margin-top: 20px;
+}
+.one-project {
+  margin-top: 20px;
+}
+.projects {
+}
+ul{
+  padding: 0px;
+  margin-left: 13px;
+}
+li {
+  list-style-type: disc;
+  line-height: 1.25;
+  
+}
+.project-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.name-link {
+  display: flex;
+  gap: 10px;
+}
+.tech-stacks {
+  font-weight: 600;
+}
+/* ------------------------------- */
+/* skills section below */
+
+.tech-skills {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.soft-skills-section {
+  width: 100%;
+  margin-top: 20px;
+}
+.techs {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.soft-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+/* ---------------------
+Achievement section below */
+.achievements {
+  width: 100%;
+  margin-top: 30px;
+}
+.problems-solved {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* ----------------- */
+/* media query below than it */
+
+@media (max-width: 1000px) {
+  .contact-details {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .resume {
+    width: 98%;
+    padding: 0px;
+  }
+}
